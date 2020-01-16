@@ -1,0 +1,12 @@
+[Fri Sep 27 17:11:49 2019] PHP Notice:  Undefined index: user in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:11:49 2019] PHP Notice:  Trying to get property 'server' of non-object in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:11:49 2019] PHP Notice:  Undefined index: user in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:11:49 2019] PHP Notice:  Trying to get property 'name' of non-object in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:11:49 2019] PHP Notice:  Undefined index: user in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:11:49 2019] PHP Fatal error:  Uncaught Error: Call to a member function readPassword() on null in /home/adrian/Desktop/mysqliu/httpserver/php/index.php:6
+Stack trace:
+#0 /home/adrian/Desktop/mysqliu/httpserver/php/router.php(82): include_once()
+#1 /home/adrian/Desktop/mysqliu/httpserver/php/router.php(102): Router->run('/home/adrian/De...')
+#2 {main}
+  thrown in /home/adrian/Desktop/mysqliu/httpserver/php/index.php on line 6
+[Fri Sep 27 17:27:02 2019] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - session is not active in /home/adrian/Desktop/mysqliu/httpserver/php/modules/logout.php on line 8

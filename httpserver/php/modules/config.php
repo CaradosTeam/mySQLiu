@@ -1,0 +1,4 @@
+<?php
+//PHP Config File for mysqliu
+define("MYSQLIU_DIR_PATH" , $_SERVER["DOCUMENT_ROOT"].DIRECTORY_SEPARATOR."mysqliu".DIRECTORY_SEPARATOR);
+?>
